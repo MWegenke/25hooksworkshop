@@ -1,0 +1,56 @@
+body {
+  font-family:"Flexo-Regular",arial,sans-serif
+}
+img {
+  background-color: #f2eeed;
+}
+h1 {
+  margin: 1rem;
+}
+#spinner {
+  background-color: white;
+}
+#pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@keyframes bounce {
+  0% {transform: translate(0, -0.25rem)}
+  100% {transform: translate(0,0)}
+}
+.pokemon-sprite {
+  cursor: pointer;
+  margin: 0.5rem;
+}
+.pokemon-sprite:hover {
+  animation: bounce 0.25s;
+}
+.pokemon-sprite div {
+  font-weight: bold;
+}
+.pokemon-sprite img {
+  border-radius: 0.25rem;
+  width: 150px;
+}
+#pokemon-details {
+  margin: 0 2rem;
+}
+#img-and-details {
+  display: flex;
+}
+#img-container, #details {
+  margin: 0.5rem;
+}
+#pokemon-details img {
+  width: 20rem;
+}
+#details div {
+  margin: 1rem 0;
+}
+ul {
+  column-count: 5
+}
+li {
+  margin: .25rem;
+}

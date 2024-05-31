@@ -9,3 +9,6 @@ cd into the correct folder then install and start each individually.
 
 Also remember to fork and clone this to your own repo so if you push changes up you are not 
 messing up other students (don't be that person).
+
+
+NOTE: StartingBlock, is not fully functional and has some errors... on purpose. 

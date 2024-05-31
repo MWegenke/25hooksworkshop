@@ -12,7 +12,7 @@ const PokemonDetails = (props) => {
       <h2>{`${props.details.name[0].toUpperCase()}${props.details.name.slice(1)}`}</h2>
       <div id='img-and-details'>
         <div id='img-container'>
-          <img src={props.details.sprites.other.home.front_default} alt={props.details.name} />
+          <img src={props.details.sprites.front_default} alt={props.details.name} />
         </div>
         <div id='details'>
           <div id='flavor'>{pokeDetails.flavor_text_entries[0].flavor_text}</div>
